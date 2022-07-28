@@ -1,0 +1,129 @@
+* {
+	font-family: Open Sans, verdana, calibri, helvetica;
+	padding: 0;
+	margin:0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+
+body{
+    margin: 20px;
+    border: none;
+    background-color:white;
+}
+ 
+.contenedor{
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.logo{
+	position:relative;
+    top: 20%;
+    left: 40%;
+
+}
+
+
+
+header nav {
+	background: #010000;
+	margin-bottom: 10px;
+	-webkit-trasition: all ease .5s;
+	-o-transition:all ease .5s;
+	transition: all ease .5s;
+}
+
+header nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	display: block;
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	background: #E81A3D;
+
+}
+
+.menu-fixed{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	max-width: 2400px;
+	box-shadow: 0px 4px 7px rgba(0,0,0,.5); 
+    
+}
+
+.menu-fixed ul li a{
+	padding: 12px 20px;
+
+}
+
+footer{
+	display: flex;
+
+	height: 160px;
+    background-color: #010000;
+    border: none;
+    padding: 15px 30px;
+
+}
+
+.redes a img{
+	background-color:  transparent;
+	float: right;
+	padding: 5px;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+
+}
+
+footer ul  {
+	color: white;
+	list-style: none;
+}
+footer ul a {
+	color: white;
+	text-decoration: none;
+
+}
+
+.mapaNav{
+	float: left;
+}
+
+.copy{
+	float: bottom;
+	text-decoration: none;
+	color: white;
+
+}
+
+footer ul a: hover{
+	color: #FFCA1B;
+	text-decoration: none; 
+}
+
+.mapaNav .redes{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	top: 10px;
+	display: block;
+}
